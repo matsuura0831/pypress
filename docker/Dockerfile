@@ -6,5 +6,4 @@ RUN pip install -r /requirements.txt
 ADD docker/dev-requirements.txt /dev-requirements.txt
 RUN pip install -r /dev-requirements.txt
 
-ADD workspace /workspace
 WORKDIR /workspace

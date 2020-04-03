@@ -1,1 +1,13 @@
+.devcontainer/
 __pycache__/
+
+# packaging
+.eggs/
+*.egg-info/
+build/
+dist/
+
+# test
+.pytest_cache
+.coverage
+htmlcov/
